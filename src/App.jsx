@@ -1,17 +1,19 @@
 import { useState } from 'react'
 import randomScope from './componets/randomScope'
+import Accordion from './componets/Accordion'
 import './App.css'
 
-function FortuneButton() {
-  const [fortune, setFortune] = useState(randomScope)
-  return (
-    <div>
-      <p>{randomScope()}</p>
-      <button onClick={()=>
-      setFortune(randomScope())}>random fortune</button>
-    </div>
-  )
-}
+// function FortuneButton() {
+//   const [fortune, setFortune] = useState(randomScope)
+//   return (
+//     <div>
+//       <p>{randomScope()}</p>
+//       <button onClick={()=>
+//       setFortune(randomScope())}>random fortune</button>
+//     </div>
+//   )
+// }
+
 
 function App() {
 
@@ -22,7 +24,7 @@ function App() {
       <p>horoscopes collected as part of a failed marketing ploy for dog food</p>
     </div>
     <div>
-    < FortuneButton />
+    < Accordion />
     </div>
     </>
   )
