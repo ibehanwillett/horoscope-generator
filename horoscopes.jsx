@@ -14,3 +14,9 @@ let horoscopes = {
  }
 
  export default horoscopes;
+
+ let 060123 = {
+    aries : "time to set boundaries with your family! Try swinging a morningstar around while screaming 'Back! Back you animals!'",
+    taurus: "this week dance like no one is watching, sing like no one is listening and embezzel like you're not under active investigation by the ATO.", 
+    gemini: ""
+ }

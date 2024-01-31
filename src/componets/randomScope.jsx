@@ -28,7 +28,7 @@ let horoscopes = [
 ]
 
 
-function randomScope() {
+const randomScope = () => {
     let num = Math.floor(Math.random() * 12)
   return (
     horoscopes[num].fortune

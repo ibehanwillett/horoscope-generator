@@ -21,7 +21,9 @@ function App() {
       <h1>Horoscope Beercan-Millett</h1>
       <p>horoscopes collected as part of a failed marketing ploy for dog food</p>
     </div>
-    { FortuneButton() }
+    <div>
+    < FortuneButton />
+    </div>
     </>
   )
 }
