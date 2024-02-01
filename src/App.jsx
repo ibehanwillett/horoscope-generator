@@ -21,10 +21,10 @@ function App() {
     <>
     <div>
       <h1>Horoscope Beercan-Millett</h1>
-      <p>horoscopes collected as part of a failed marketing ploy for dog food</p>
+      <p>horoscopes created as part of a failed marketing ploy for dog food</p>
     </div>
     <div>
-    < Accordion />
+    <Accordion />
     </div>
     </>
   )
